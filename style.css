@@ -1,9 +1,47 @@
-.form{
-padding: 20;
-border: 8;
-border-radius: 20;
-border-color: blueviolet;
-background-color: rgb(187, 125, 245);
+.container{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
 
 
+
+#registration{
+    padding: 12px;
+    background-color: rosybrown;
+    text-align: center;
+max-width: fit-content;
+}
+#login{
+    padding: 12px;
+    background-color: rosybrown;
+    text-align: center;
+max-width: fit-content;
+}
+
+#loginbtn{
+    padding: 12px;
+    background-color: rosybrown;
+    text-align: center;
+
+}
+#notification{
+    
+    color: springgreen;
+    text-align: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin-bottom: 30px;
+}
+
+#notify{
+    
+    color: springgreen;
+    text-align: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin-bottom: 300px;
 }

@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javascript</title>
-    <script src="style.css"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- form -->
-    <form action="hero.html" class="form">
-       <input type="username" placeholder="username">
- <input type="email" placeholder="email">
-  <input type="password" placeholder="password" >
-  <a href="hero.html" >login</a>
-  <br>
-  <div class="p-5">
-  <p class="text-slate-900">Dont have an Account? <a href="sign.html">sign up</a></p>
-  </div>
-  </form>
+     <div class="container">
+  <form id="registration">
+        <input type="text" name="username" id="username" placeholder="enter your username" required>
+        <input type="email" name="email" id="email" placeholder="enter your email" required>
+        <input type="date" name="date" id="date" placeholder="enter your date of birth" required>
+        <button type="submit" id="submit"> register </button>
+        <p>already registered?<a href="login.html">login here</a></p>
+    </form>
 </div>
-</div>
+    <div id="notification"></div>
+
+   
+<script src="scripts.js" defer></script>
 </body>
 </html>
