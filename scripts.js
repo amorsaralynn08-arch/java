@@ -74,6 +74,13 @@ if(registerForm) {
     const today = new Date();
     const age = today.getFullYear() - birthdate.getFullYear();
 
+document.cookies=`username$(usernameValue);`
+document.cookies=`email, $(emailValue)`;
+document.cookies=`date $(dateValue)`;
+document.cookies=`age, $(age)`;
+
+console.log("cookie saved successfully!");
+
      const storedData = {
          username: usernameValue,
         email:emailValue,
